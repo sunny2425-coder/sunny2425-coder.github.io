@@ -1,276 +1,727 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
-  </title>
+  <title>Bích Ngọc | Business Intelligence & MarTech Portfolio</title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
+  <meta
+    name="description"
+    content="Portfolio cá nhân của Nguyễn Thị Bích Ngọc - sinh viên Hệ thống Thông tin Quản lý, định hướng Business Intelligence, MarTech và Data Analytics."
+  />
+  <meta
+    name="keywords"
+    content="Nguyễn Thị Bích Ngọc, Portfolio, MarTech, Business Intelligence, Data Analytics, Power BI, SQL, SEO, CRM, Odoo ERP"
+  />
+  <meta name="author" content="Nguyễn Thị Bích Ngọc" />
+
+  <link rel="shortcut icon" type="image/svg+xml" href="./images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="Trang chủ Bích Ngọc">
+        BN<span>.</span>
+      </a>
 
-  <!-- ***** Header ***** -->
+      <button
+        class="mobile-menu-button"
+        id="mobileMenuButton"
+        type="button"
+        aria-label="Mở menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
+      <nav class="nav" id="mainNav" aria-label="Điều hướng chính">
+        <a href="#about" data-i18n="navAbout">Giới thiệu</a>
+        <a href="#journey" data-i18n="navJourney">Hành trình</a>
+        <a href="#projects" data-i18n="navProjects">Dự án</a>
+
+        <div class="dropdown">
+          <button class="dropbtn" type="button" data-i18n="navAchievement">
+            Thành tích
+          </button>
+
+          <div class="dropdown-content">
+            <a href="#research" data-i18n="navResearch">Nghiên cứu khoa học</a>
+            <a href="#activities" data-i18n="navActivities">Hoạt động sinh viên</a>
+            <a href="#study" data-i18n="navStudy">Học tập</a>
+          </div>
+        </div>
+
+        <a href="#skills" data-i18n="navSkills">Kỹ năng</a>
+        <a href="#contact" data-i18n="navContact">Liên hệ</a>
+
+        <div class="language-switcher" aria-label="Chọn ngôn ngữ">
+          <button type="button" class="language-button active" data-lang="vi">VI</button>
+          <span>|</span>
+          <button type="button" class="language-button" data-lang="en">EN</button>
+        </div>
       </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
     </div>
   </header>
 
-  <main role="main">
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-background-image" aria-hidden="true"></div>
+      <div class="hero-grid-pattern" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-one" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-two" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-three" aria-hidden="true"></div>
 
-    <!-- ***** Work ***** -->
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroGreeting">Xin chào, mình là</p>
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
+          <h1>Bích Ngọc</h1>
 
-          <!-- Each div with the work__box class is a project. -->
+          <p class="hero-role" data-i18n="heroRole">
+            Sinh viên ngành Hệ thống Thông tin Quản lý
+          </p>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
+          <p class="hero-focus" data-i18n="heroSpecialization">
+            Business Intelligence • MarTech • Data Analytics
+          </p>
 
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
+          <p class="hero-description" data-i18n="heroDescription">
+            Mình đam mê kết hợp công nghệ, dữ liệu và tư duy marketing để xây dựng
+            những giải pháp mang lại giá trị thực tiễn cho doanh nghiệp.
+          </p>
+
+          <p class="hero-slogan" data-i18n="heroSlogan">
+            Kết nối dữ liệu, công nghệ và marketing để tạo nên những quyết định thông minh.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary" data-i18n="viewProjects">
+              Khám phá dự án
+            </a>
+            <a
+              href="./images/NguyenThiBichNgoc_CV.pdf"
+              class="button button-secondary"
+              target="_blank"
+              rel="noopener"
+              data-i18n="viewResume"
+            >
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              Xem CV
+            </a>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
+          <div class="hero-socials">
+            <a href="https://github.com/sunny2425-coder" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.facebook.com/bich.ngoc.487060?locale=vi_VN" target="_blank" rel="noopener">Facebook</a>
+            <a href="mailto:nguyenthibichngocuth@gmail.com">Email</a>
+          </div>
+        </div>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <img src="./images/avatar.jpg" alt="Ảnh chân dung Bích Ngọc" />
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
+          <div class="floating-tag tag-one">Power BI</div>
+          <div class="floating-tag tag-two">MarTech</div>
+          <div class="floating-tag tag-three">Odoo ERP</div>
+          <div class="floating-tag tag-four">SQL</div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    <section class="section metrics-section" id="highlights">
+      <div class="container">
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong class="counter" data-target="4" data-suffix="+">0</strong>
+            <span data-i18n="metricProjects">Dự án học tập</span>
+          </article>
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <article class="stat-card">
+            <strong class="counter" data-target="10" data-suffix="+">0</strong>
+            <span data-i18n="metricAwards">Giải thưởng & Giấy khen</span>
+          </article>
+
+          <article class="stat-card">
+            <strong class="counter" data-target="30" data-suffix="+">0</strong>
+            <span data-i18n="metricSeo">Bài viết SEO</span>
+          </article>
+
+          <article class="stat-card">
+            <strong class="counter" data-target="10" data-suffix="+">0</strong>
+            <span data-i18n="metricActivities">Hoạt động sinh viên</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ***** About ***** -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="aboutEyebrow">Về mình</p>
+          <h2 data-i18n="aboutTitle">Giới thiệu bản thân</h2>
+        </div>
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+        <div class="about-grid">
+          <div class="about-copy card">
+            <p data-i18n="aboutParagraphOne">
+              Mình là Nguyễn Thị Bích Ngọc, sinh viên năm cuối ngành Hệ thống Thông tin Quản lý.
+              Mình định hướng phát triển trong lĩnh vực Business Intelligence, MarTech và Data Analytics.
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+
+            <p data-i18n="aboutParagraphTwo">
+              Các kỹ năng chuyên môn của mình chủ yếu được tích lũy thông qua dự án môn học,
+              nghiên cứu khoa học và hoạt động tại trường. Mình yêu thích việc kết nối dữ liệu,
+              công nghệ và tư duy marketing để tạo ra những sản phẩm học thuật có tính ứng dụng.
+            </p>
           </div>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          <div class="about-highlights">
+            <article class="mini-card">
+              <strong>BI</strong>
+              <span data-i18n="highlightOne">Biến dữ liệu thành insight</span>
+            </article>
+            <article class="mini-card">
+              <strong>MarTech</strong>
+              <span data-i18n="highlightTwo">Kết nối marketing và công nghệ</span>
+            </article>
+            <article class="mini-card">
+              <strong>ERP</strong>
+              <span data-i18n="highlightThree">Mô phỏng quy trình doanh nghiệp</span>
+            </article>
+            <article class="mini-card">
+              <strong>Research</strong>
+              <span data-i18n="highlightFour">Phát triển tư duy nghiên cứu</span>
+            </article>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="journey">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="journeyEyebrow">Quá trình phát triển</p>
+          <h2 data-i18n="journeyTitle">Hành trình của mình</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>2023</span>
+            <div>
+              <h3 data-i18n="journeyOneTitle">Khởi đầu với ngành Hệ thống Thông tin Quản lý</h3>
+              <p data-i18n="journeyOneText">
+                Xây dựng nền tảng về kinh doanh, dữ liệu và hệ thống doanh nghiệp.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span>2024</span>
+            <div>
+              <h3 data-i18n="journeyTwoTitle">Khám phá Nghiên cứu Khoa học & Phân tích Dữ liệu</h3>
+              <p data-i18n="journeyTwoText">
+                Tham gia các hoạt động nghiên cứu khoa học, phát triển tư duy phân tích dữ liệu
+                và bắt đầu làm quen với Power BI, SQL trong các dự án học tập.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span>2025</span>
+            <div>
+              <h3 data-i18n="journeyThreeTitle">Phát triển Business Intelligence, Big Data & MarTech</h3>
+              <p data-i18n="journeyThreeText">
+                Thực hiện các dự án học tập về ETL, Dashboard, hành vi khách hàng,
+                SEO và Digital Marketing.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span>2026</span>
+            <div>
+              <h3 data-i18n="journeyFourTitle">Team Leader – Dự án ERP Odoo</h3>
+              <p data-i18n="journeyFourText">
+                Đảm nhiệm vai trò Team Leader, cùng đội ngũ xây dựng hệ thống ERP mô phỏng
+                quy trình Marketing, CRM, tuyển sinh, quản lý đào tạo và Dashboard trên nền tảng Odoo.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span data-i18n="futureLabel">Tương lai</span>
+            <div>
+              <h3 data-i18n="journeyFiveTitle">Hướng tới sự nghiệp Business Intelligence & MarTech</h3>
+              <p data-i18n="journeyFiveText">
+                Tiếp tục phát triển kiến thức, công cụ và tư duy nghiệp vụ để sẵn sàng cho môi trường doanh nghiệp.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="projectsEyebrow">Dự án học tập</p>
+          <h2 data-i18n="projectsTitle">Dự án nổi bật</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/project-1.jpg" alt="Dự án VUS ERP" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">ERP • CRM • MarTech</p>
+              <h3 data-i18n="projectOneTitle">Hệ thống quản lý học viên VUS</h3>
+              <p data-i18n="projectOneDescription">
+                Đồ án mô phỏng hệ thống quản lý tuyển sinh và học viên trên Odoo,
+                kết nối Marketing, CRM, kiểm tra đầu vào, ghi danh và Dashboard.
+              </p>
+              <div class="chips">
+                <span>Odoo 17</span><span>Python</span><span>PostgreSQL</span><span>Power BI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/tuyenhk05/VUS_ODOO" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" data-i18n="projectDetails">Xem chi tiết</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/project-2.jpg" alt="Dự án Data Warehouse" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Business Intelligence</p>
+              <h3 data-i18n="projectTwoTitle">Data Warehouse thương mại điện tử</h3>
+              <p data-i18n="projectTwoDescription">
+                Dự án học tập về mô hình Star Schema, ETL và Dashboard Power BI
+                phục vụ phân tích bán hàng, khách hàng, RFM và Market Basket.
+              </p>
+              <div class="chips">
+                <span>SQL Server</span><span>Power BI</span><span>ETL</span><span>Star Schema</span>
+              </div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#" data-i18n="projectDetails">Xem chi tiết</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/project-3.jpg" alt="Dự án Big Data" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Big Data Analytics</p>
+              <h3 data-i18n="projectThreeTitle">Phân tích hành vi khách hàng</h3>
+              <p data-i18n="projectThreeDescription">
+                Dự án môn học phân tích dữ liệu hành vi người dùng thương mại điện tử
+                và xây dựng Dashboard theo dõi khách hàng, doanh thu và hiệu quả kinh doanh.
+              </p>
+              <div class="chips">
+                <span>Apache Spark</span><span>Power BI</span><span>DataMart</span>
+              </div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#" data-i18n="projectDetails">Xem chi tiết</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/project-4.jpg" alt="Ứng dụng nhận diện khuôn mặt" />
+            </div>
+            <div class="project-content">
+              <p class="project-type">Python Application</p>
+              <h3 data-i18n="projectFourTitle">Ứng dụng nhận diện khuôn mặt</h3>
+              <p data-i18n="projectFourDescription">
+                Đồ án môn học về ứng dụng nhận diện khuôn mặt hỗ trợ quản lý và điểm danh,
+                kết hợp giao diện web với xử lý hình ảnh.
+              </p>
+              <div class="chips">
+                <span>Python</span><span>Flask</span><span>OpenCV</span>
+              </div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#" data-i18n="projectDetails">Xem chi tiết</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft gallery-section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="researchEyebrow">Nghiên cứu khoa học</p>
+          <h2 data-i18n="researchTitle">Một số hoạt động nghiên cứu tiêu biểu</h2>
+          <p class="section-description" data-i18n="researchDescription">
+            Những trải nghiệm giúp mình rèn luyện tư duy nghiên cứu, làm việc nhóm và trình bày học thuật.
+          </p>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/research-1.jpg" alt="AI KING 2025" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2025</span>
+              <h3 data-i18n="researchOneTitle">Hội thảo Khoa học AI KING 2025</h3>
+              <p data-i18n="researchOneText">
+                Đề tài về tác động của trí tuệ nhân tạo trong quá trình chuyển đổi chiến lược Digital Marketing toàn cầu.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/research-1.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/research-2.jpg" alt="Eureka XXVII" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2025</span>
+              <h3 data-i18n="researchTwoTitle">Giải thưởng Sinh viên Nghiên cứu Khoa học Eureka XXVII</h3>
+              <p data-i18n="researchTwoText">
+                Tham gia sân chơi nghiên cứu khoa học sinh viên cấp Thành phố Hồ Chí Minh.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/research-2.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/research-3.jpg" alt="Giải Ba NCKH 2024" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2024</span>
+              <h3 data-i18n="researchThreeTitle">Hội thảo Khoa học An toàn thực phẩm và An ninh lương thực lần 8</h3>
+              <p data-i18n="researchThreeText">
+                Thành viên nhóm tác giả đạt Giải Ba tại hội thảo khoa học năm 2024.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/research-3.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft gallery-section" id="activities">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="activitiesEyebrow">Hành trình sinh viên</p>
+          <h2 data-i18n="activitiesTitle">Hoạt động sinh viên</h2>
+          <p class="section-description" data-i18n="activitiesDescription">
+            Các hoạt động Đoàn – Hội, tình nguyện, sự kiện và trải nghiệm tại trường.
+          </p>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/activity-01.jpg" alt="Giấy khen Hội Sinh viên Trường" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2024</span>
+              <h3 data-i18n="activityOneTitle">Giấy khen Hội Sinh viên Trường</h3>
+              <p data-i18n="activityOneDescription">
+                Được Ban Chấp hành Hội Sinh viên Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều đóng góp tích cực trong công tác Hội, phong trào sinh viên và các hoạt động tình nguyện.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/activity-01.jpg" data-i18n="viewImage">
+                Xem ảnh
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/activity-02.jpg" alt="Giấy khen của Đoàn Trường" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2025</span>
+              <h3 data-i18n="activityTwoTitle">Giấy khen của Đoàn Trường</h3>
+              <p data-i18n="activityTwoDescription">
+                Được Ban Chấp hành Đoàn Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều thành tích nổi bật trong công tác Đoàn, phong trào thanh niên và các hoạt động tình nguyện.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/activity-02.jpg" data-i18n="viewImage">
+                Xem ảnh
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/activity-3.jpg" alt="Dấu ấn Hoạt động Sinh viên" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2023–2025</span>
+              <h3 data-i18n="activityThreeTitle">Dấu ấn Hoạt động Sinh viên</h3>
+              <p data-i18n="activityThreeDescription">
+                Lưu giữ những dấu ấn đáng nhớ trong quá trình tham gia các hoạt động Đoàn Thanh niên, Hội Sinh viên, chương trình tình nguyện, hội thảo, sự kiện và các phong trào sinh viên tại Trường Đại học Giao thông Vận tải TP.HCM.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/activity-3.jpg" data-i18n="viewImage">
+                Xem ảnh
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="study">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="studyEyebrow">Học tập</p>
+          <h2 data-i18n="studyTitle">Học tập & Ghi nhận học thuật</h2>
+          <p class="section-description" data-i18n="studyDescription">
+            Nơi cập nhật học bổng, danh hiệu Sinh viên 5 Tốt, kết quả học tập và các chứng nhận học thuật.
+          </p>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/study-1.jpg" alt="Học tập 1" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2025–2026</span>
+              <h3 data-i18n="studyOneTitle">Học bổng khuyến khích học tập</h3>
+              <p data-i18n="studyOneDescription">
+                Đạt Học bổng Khuyến khích học tập của Trường Đại học Giao thông Vận tải TP.HCM nhờ kết quả học tập loại Xuất sắc và tinh thần học tập, rèn luyện tích cực trong năm học 2024–2025.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/study-1.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/study-02.jpg" alt="Học tập 2" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2024–2025</span>
+              <h3 data-i18n="studyTwoTitle">Danh hiệu Sinh viên 5 Tốt</h3>
+              <p data-i18n="studyTwoDescription">
+                Được công nhận danh hiệu "Sinh viên 5 Tốt" cấp Liên Chi Hội năm học 2024–2025, ghi nhận sự phát triển toàn diện về đạo đức, học tập, thể lực, tình nguyện và hội nhập.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/study-02.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+
+          <article class="media-card">
+            <div class="media-image">
+              <img src="./images/study-03.jpg" alt="Chứng nhận Nghiệp vụ Tiếng Anh Bậc 3" />
+            </div>
+            <div class="media-content">
+              <span class="media-year">2024</span>
+              <h3 data-i18n="studyThreeTitle">Chứng nhận Nghiệp vụ Tiếng Anh Bậc 3</h3>
+              <p data-i18n="studyThreeDescription">
+                Hoàn thành khóa đào tạo Tiếng Anh theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam, đạt Kỹ năng Bậc 3 tại Trường Đại học Giao thông Vận tải TP.HCM.
+              </p>
+              <button class="image-view-button" type="button" data-image="./images/study-03.jpg" data-i18n="viewEvidence">
+                Xem minh chứng
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft seo-section" id="seo">
+      <div class="container seo-grid">
+        <div>
+          <p class="eyebrow" data-i18n="seoEyebrow">Website Management & SEO</p>
+          <h2 data-i18n="seoTitle">30+ bài viết SEO đã triển khai</h2>
+          <p data-i18n="seoDescription">
+            Trải nghiệm thực tế trong vai trò cộng tác viên quản trị nội dung website:
+            nghiên cứu từ khóa, triển khai nội dung chuẩn SEO, tối ưu On-page,
+            quản trị danh mục sản phẩm và theo dõi hiệu suất qua Google Search Console.
+          </p>
+        </div>
+
+        <div class="seo-points card">
+          <span>Keyword Research</span>
+          <span>On-page SEO</span>
+          <span>WordPress CMS</span>
+          <span>Google Search Console</span>
+          <span>Content Optimization</span>
+          <span>Product Data Management</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="skillsEyebrow">Kiến thức và công cụ</p>
+          <h2 data-i18n="skillsTitle">Kỹ năng đang phát triển</h2>
+        </div>
+
+        <div class="skill-groups">
+          <article class="skill-group card">
+            <h3>Data & BI</h3>
+            <div class="chips">
+              <span>Power BI</span><span>SQL</span><span>Excel</span>
+              <span>DAX</span><span>Power Query</span><span>Data Warehouse</span>
+            </div>
+          </article>
+
+          <article class="skill-group card">
+            <h3>MarTech</h3>
+            <div class="chips">
+              <span>CRM</span><span>SEO</span><span>Google Search Console</span>
+              <span>Campaign Management</span><span>Customer Journey</span><span>Marketing Analytics</span>
+            </div>
+          </article>
+
+          <article class="skill-group card">
+            <h3>Technology & ERP</h3>
+            <div class="chips">
+              <span>Odoo 17</span><span>Python</span><span>PostgreSQL</span>
+              <span>SQL Server</span><span>Git</span><span>HTML/CSS</span>
+            </div>
+          </article>
+
+          <article class="skill-group card">
+            <h3>Academic & Soft Skills</h3>
+            <div class="chips">
+              <span>Research</span><span>Data Visualization</span>
+              <span>Process Analysis</span><span>Documentation</span><span>Team Leadership</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <p class="eyebrow" data-i18n="contactEyebrow">Cùng kết nối</p>
+
+        <h2 data-i18n="contactTitle">Liên hệ với mình</h2>
+
+        <p data-i18n="contactDescription">
+          Mình luôn sẵn sàng trao đổi về cơ hội thực tập, dự án học tập
+          và các vị trí phù hợp với định hướng Business Intelligence,
+          MarTech hoặc Data Analytics.
+        </p>
+
+        <div class="contact-main-actions">
+          <a
+            href="./images/NguyenThiBichNgoc_CV.pdf"
+            class="button button-primary"
+            target="_blank"
+            rel="noopener"
+            data-i18n="viewResume"
+          >
+            <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+            Xem CV
+          </a>
+
+          <a
+            href="https://github.com/sunny2425-coder"
+            class="button button-secondary"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </div>
+
+        <div class="contact-info-grid">
+          <a class="contact-info-card" href="mailto:nguyenthibichngocuth@gmail.com">
+            <span class="contact-info-icon">✉</span>
+            <div>
+              <span class="contact-info-label" data-i18n="emailLabel">Email</span>
+              <strong>nguyenthibichngocuth@gmail.com</strong>
+            </div>
+          </a>
+
+          <a class="contact-info-card" href="tel:+84365235243">
+            <span class="contact-info-icon">☎</span>
+            <div>
+              <span class="contact-info-label" data-i18n="phoneLabel">Số điện thoại</span>
+              <strong>0365 235 243</strong>
+            </div>
+          </a>
+
+          <a
+            class="contact-info-card"
+            href="https://www.facebook.com/bich.ngoc.487060?locale=vi_VN"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact-info-icon">f</span>
+            <div>
+              <span class="contact-info-label">Facebook</span>
+              <strong data-i18n="facebookText">Bích Ngọc</strong>
+            </div>
+          </a>
+
+          <a
+            class="contact-info-card"
+            href="./images/NguyenThiBichNgoc_CV.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact-info-icon">CV</span>
+            <div>
+              <span class="contact-info-label" data-i18n="cvLabel">Hồ sơ</span>
+              <strong data-i18n="cvText">Xem CV PDF</strong>
+            </div>
+          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Nguyễn Thị Bích Ngọc</p>
+      <p data-i18n="footerText">Kết nối dữ liệu, công nghệ và marketing.</p>
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
+  <div class="image-modal" id="imageModal" aria-hidden="true">
+    <button
+      class="image-modal-close"
+      id="imageModalClose"
+      type="button"
+      aria-label="Đóng ảnh"
+    >
+      ×
+    </button>
+    <img id="imageModalContent" src="" alt="Ảnh minh chứng" />
+  </div>
+
+  <a href="#top" class="back-to-top" aria-label="Lên đầu trang">↑</a>
+
   <script src="./index.js"></script>
 </body>
-
 </html>
