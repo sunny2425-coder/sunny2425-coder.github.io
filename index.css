@@ -466,6 +466,65 @@ button {
   font-size: 0.9rem;
 }
 
+.capability-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.capability-card {
+  position: relative;
+  padding: 32px 28px;
+  overflow: hidden;
+  box-shadow: 0 14px 38px rgba(40, 67, 120, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.capability-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 48px rgba(40, 67, 120, 0.14);
+}
+
+.capability-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  color: var(--primary);
+  background: var(--primary-soft);
+  font-weight: 800;
+}
+
+.capability-card h3 {
+  margin-top: 22px;
+  font-size: 1.3rem;
+}
+
+.capability-card ul {
+  margin-top: 18px;
+  padding-left: 20px;
+  color: var(--text-soft);
+}
+
+.capability-card li + li {
+  margin-top: 9px;
+}
+
+.capability-card li::marker {
+  color: var(--primary);
+}
+
+.capability-note {
+  margin-top: 24px;
+  padding: 16px 20px;
+  border-left: 4px solid var(--primary);
+  border-radius: 0 14px 14px 0;
+  color: var(--text-soft);
+  background: rgba(255, 255, 255, 0.72);
+}
+
 .timeline {
   position: relative;
   display: grid;
@@ -551,6 +610,12 @@ button {
 .project-content > p:not(.project-type) {
   margin-top: 18px;
   color: var(--text-soft);
+}
+
+.project-coming {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .chips {
@@ -929,7 +994,8 @@ button {
   }
 
   .stats-grid,
-  .media-grid {
+  .media-grid,
+  .capability-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -974,7 +1040,8 @@ button {
   .about-highlights,
   .stats-grid,
   .skill-groups,
-  .media-grid {
+  .media-grid,
+  .capability-grid {
     grid-template-columns: 1fr;
   }
 

@@ -1,40 +1,61 @@
 const translations = {
   vi: {
     navAbout: "Giới thiệu",
+    navCapabilities: "Năng lực TMĐT",
     navJourney: "Hành trình",
     navProjects: "Dự án",
-    navResearch: "Nghiên cứu khoa học",
-    navActivities: "Hoạt động sinh viên",
+    navResearch: "NCKH",
+    navActivities: "Hoạt động",
     navStudy: "Học tập",
     navSkills: "Kỹ năng",
     navContact: "Liên hệ",
     navAchievement: "Thành tích",
 
     heroGreeting: "Xin chào, mình là",
-    heroRole: "Sinh viên ngành Hệ thống Thông tin Quản lý",
-    heroSpecialization: "Business Intelligence • MarTech • Data Analytics",
+    heroRole: "Sinh viên Hệ thống Thông tin Quản lý • Định hướng E-commerce Operations",
+    heroSpecialization: "E-commerce • Livestream Operations • Sales Analytics",
     heroDescription:
-      "Mình đam mê kết hợp công nghệ, dữ liệu và tư duy marketing để xây dựng những giải pháp mang lại giá trị thực tiễn cho doanh nghiệp.",
+      "Mình hướng đến công việc vận hành gian hàng và livestream: chuẩn bị sản phẩm, phối hợp nội dung, theo dõi hiệu suất và dùng dữ liệu để tối ưu bán hàng.",
     heroSlogan:
-      "Kết nối dữ liệu, công nghệ và marketing để tạo nên những quyết định thông minh.",
+      "Kết nối vận hành, nội dung và dữ liệu để tạo nên những phiên bán hàng hiệu quả.",
     viewProjects: "Khám phá dự án",
-    viewResume: "Xem CV",
+    viewResume: "Liên hệ với mình",
 
-    metricProjects: "Dự án học tập",
-    metricAwards: "Giải thưởng & Giấy khen",
+    metricProjects: "Dự án dữ liệu & hệ thống",
+    metricAwards: "Giải thưởng & ghi nhận",
     metricSeo: "Bài viết SEO",
-    metricActivities: "Hoạt động sinh viên",
+    metricActivities: "Hoạt động & sự kiện",
 
     aboutEyebrow: "Về mình",
     aboutTitle: "Giới thiệu bản thân",
     aboutParagraphOne:
-      "Mình là Nguyễn Thị Bích Ngọc, sinh viên năm cuối ngành Hệ thống Thông tin Quản lý. Mình định hướng phát triển trong lĩnh vực Business Intelligence, MarTech và Data Analytics.",
+      "Mình là Nguyễn Thị Bích Ngọc, sinh viên năm cuối ngành Hệ thống Thông tin Quản lý. Mình định hướng phát triển trong lĩnh vực E-commerce Operations, đặc biệt là vận hành livestream.",
     aboutParagraphTwo:
-      "Các kỹ năng chuyên môn của mình chủ yếu được tích lũy thông qua dự án môn học, nghiên cứu khoa học và hoạt động tại trường. Mình yêu thích việc kết nối dữ liệu, công nghệ và tư duy marketing để tạo ra những sản phẩm học thuật có tính ứng dụng.",
-    highlightOne: "Biến dữ liệu thành insight",
-    highlightTwo: "Kết nối marketing và công nghệ",
-    highlightThree: "Mô phỏng quy trình doanh nghiệp",
-    highlightFour: "Phát triển tư duy nghiên cứu",
+      "Nền tảng về dữ liệu, marketing, SEO, CRM và hệ thống doanh nghiệp giúp mình tiếp cận vận hành TMĐT theo hướng có quy trình và đo lường. Mình mong muốn phát triển khả năng chuẩn bị phiên live, phối hợp đội nhóm, quản lý sản phẩm và phân tích hiệu quả bán hàng.",
+    highlightOne: "Chuẩn bị và điều phối phiên live",
+    highlightTwo: "Quản lý sản phẩm và chiến dịch",
+    highlightThree: "Theo dõi và phân tích hiệu suất",
+    highlightFour: "Phối hợp host, nội dung và vận hành",
+
+    capabilitiesEyebrow: "Định hướng nghề nghiệp",
+    capabilitiesTitle: "Năng lực E-commerce đang phát triển",
+    capabilitiesDescription: "Mình đang chuyển hóa nền tảng dữ liệu, marketing và quản trị hệ thống thành năng lực vận hành bán hàng thực tế.",
+    capabilityOneTitle: "Livestream Operations",
+    capabilityOneA: "Chuẩn bị danh sách sản phẩm, ưu đãi và timeline",
+    capabilityOneB: "Phối hợp host, nội dung và bộ phận hỗ trợ",
+    capabilityOneC: "Theo dõi tương tác, đơn hàng và xử lý tình huống",
+    capabilityOneD: "Tổng hợp báo cáo và rút kinh nghiệm sau live",
+    capabilityTwoTitle: "Store & Campaign Operations",
+    capabilityTwoA: "Quản lý thông tin, nội dung và danh mục sản phẩm",
+    capabilityTwoB: "Theo dõi giá, voucher và chương trình khuyến mãi",
+    capabilityTwoC: "Phối hợp nội dung SEO và hành trình khách hàng",
+    capabilityTwoD: "Làm việc theo checklist và quy trình vận hành",
+    capabilityThreeTitle: "Sales Analytics",
+    capabilityThreeA: "Theo dõi traffic, đơn hàng và doanh thu",
+    capabilityThreeB: "Phân tích khách hàng, RFM và hiệu suất SKU",
+    capabilityThreeC: "Xây dựng dashboard bằng Power BI và Excel",
+    capabilityThreeD: "Chuyển dữ liệu thành đề xuất tối ưu bán hàng",
+    capabilitiesNote: "Đây là nhóm năng lực mình đang chủ động hoàn thiện để sẵn sàng cho vị trí thực tập hoặc fresher trong lĩnh vực TMĐT.",
 
     journeyEyebrow: "Quá trình phát triển",
     journeyTitle: "Hành trình của mình",
@@ -50,13 +71,14 @@ const translations = {
     journeyFourText:
       "Đảm nhiệm vai trò Team Leader, cùng đội ngũ xây dựng hệ thống ERP mô phỏng quy trình Marketing, CRM, tuyển sinh, quản lý đào tạo và Dashboard trên nền tảng Odoo.",
     futureLabel: "Tương lai",
-    journeyFiveTitle: "Hướng tới sự nghiệp Business Intelligence & MarTech",
+    journeyFiveTitle: "Hướng tới sự nghiệp E-commerce & Livestream Operations",
     journeyFiveText:
       "Tiếp tục phát triển kiến thức, công cụ và tư duy nghiệp vụ để sẵn sàng cho môi trường doanh nghiệp.",
 
     projectsEyebrow: "Dự án học tập",
     projectsTitle: "Dự án nổi bật",
     projectDetails: "Xem chi tiết",
+    projectComing: "Case study đang cập nhật",
     projectOneTitle: "Hệ thống quản lý học viên VUS",
     projectOneDescription:
       "Đồ án mô phỏng hệ thống quản lý tuyển sinh và học viên trên Odoo, kết nối Marketing, CRM, kiểm tra đầu vào, ghi danh và Dashboard.",
@@ -88,15 +110,11 @@ const translations = {
     activitiesTitle: "Hoạt động sinh viên",
     activitiesDescription:
       "Các hoạt động Đoàn – Hội, tình nguyện, sự kiện và trải nghiệm tại trường.",
-    activityOneTitle: "Giấy khen Hội Sinh viên Trường",
-    activityTwoTitle: "Giấy khen của Đoàn Trường",
-    activityThreeTitle: "Dấu ấn Hoạt động Sinh viên",
-    activityOneDescription:
-      "Được Ban Chấp hành Hội Sinh viên Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều đóng góp tích cực trong công tác Hội, phong trào sinh viên và các hoạt động tình nguyện.",
-    activityTwoDescription:
-      "Được Ban Chấp hành Đoàn Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều thành tích nổi bật trong công tác Đoàn, phong trào thanh niên và các hoạt động tình nguyện.",
-    activityThreeDescription:
-      "Lưu giữ những dấu ấn đáng nhớ trong quá trình tham gia các hoạt động Đoàn Thanh niên, Hội Sinh viên, chương trình tình nguyện, hội thảo, sự kiện và các phong trào sinh viên tại Trường Đại học Giao thông Vận tải TP.HCM.",
+    activityOneTitle: "Hoạt động tiêu biểu 01",
+    activityTwoTitle: "Hoạt động tiêu biểu 02",
+    activityThreeTitle: "Hoạt động tiêu biểu 03",
+    activityPlaceholderText:
+      "Thay ảnh, tên hoạt động, vai trò và thời gian tại đây.",
 
     studyEyebrow: "Học tập",
     studyTitle: "Học tập & Ghi nhận học thuật",
@@ -105,17 +123,13 @@ const translations = {
     studyOneTitle: "Học bổng khuyến khích học tập",
     studyTwoTitle: "Danh hiệu Sinh viên 5 Tốt",
     studyThreeTitle: "Chứng nhận Nghiệp vụ Tiếng Anh Bậc 3",
-    studyOneDescription:
-      "Đạt Học bổng Khuyến khích học tập của Trường Đại học Giao thông Vận tải TP.HCM nhờ kết quả học tập loại Xuất sắc và tinh thần học tập, rèn luyện tích cực trong năm học 2024–2025.",
-    studyTwoDescription:
-      "Được công nhận danh hiệu \"Sinh viên 5 Tốt\" cấp Liên Chi Hội năm học 2024–2025, ghi nhận sự phát triển toàn diện về đạo đức, học tập, thể lực, tình nguyện và hội nhập.",
-    studyThreeDescription:
-      "Hoàn thành khóa đào tạo Tiếng Anh theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam, đạt Kỹ năng Bậc 3 tại Trường Đại học Giao thông Vận tải TP.HCM.",
+    studyPlaceholderText:
+      "Thay ảnh và mô tả thông tin học tập tại đây.",
 
-    seoEyebrow: "Website Management & SEO",
+    seoEyebrow: "E-commerce Content & SEO",
     seoTitle: "30+ bài viết SEO đã triển khai",
     seoDescription:
-      "Trải nghiệm thực tế trong vai trò cộng tác viên quản trị nội dung website: nghiên cứu từ khóa, triển khai nội dung chuẩn SEO, tối ưu On-page, quản trị danh mục sản phẩm và theo dõi hiệu suất qua Google Search Console.",
+      "Trải nghiệm thực tế trong vai trò cộng tác viên quản trị nội dung website và danh mục sản phẩm: nghiên cứu từ khóa, triển khai nội dung chuẩn SEO, tối ưu On-page và theo dõi hiệu suất qua Google Search Console.",
 
     skillsEyebrow: "Kiến thức và công cụ",
     skillsTitle: "Kỹ năng đang phát triển",
@@ -126,20 +140,21 @@ const translations = {
     contactEyebrow: "Cùng kết nối",
     contactTitle: "Liên hệ với mình",
     contactDescription:
-      "Mình luôn sẵn sàng trao đổi về cơ hội thực tập, dự án học tập và các vị trí phù hợp với định hướng Business Intelligence, MarTech hoặc Data Analytics.",
+      "Mình sẵn sàng trao đổi về cơ hội thực tập hoặc fresher trong lĩnh vực E-commerce Operations, Livestream Operations và Sales Analytics.",
     emailLabel: "Email",
     phoneLabel: "Số điện thoại",
     facebookText: "Bích Ngọc",
-    cvLabel: "Hồ sơ",
-    cvText: "Xem CV PDF",
+    cvLabel: "Cơ hội hợp tác",
+    cvText: "Gửi email cho mình",
     locationLabel: "Khu vực",
     locationText: "Thành phố Hồ Chí Minh",
 
-    footerText: "Kết nối dữ liệu, công nghệ và marketing."
+    footerText: "Kết nối vận hành, nội dung và dữ liệu."
   },
 
   en: {
     navAbout: "About",
+    navCapabilities: "E-commerce Skills",
     navJourney: "Journey",
     navProjects: "Projects",
     navResearch: "Research",
@@ -150,30 +165,50 @@ const translations = {
     navAchievement: "Achievements",
 
     heroGreeting: "Hello, I am",
-    heroRole: "Management Information Systems Student",
-    heroSpecialization: "Business Intelligence • MarTech • Data Analytics",
+    heroRole: "Management Information Systems Student • E-commerce Operations Focus",
+    heroSpecialization: "E-commerce • Livestream Operations • Sales Analytics",
     heroDescription:
-      "I am passionate about combining technology, data, and marketing thinking to build practical solutions that create value for businesses.",
+      "I am pursuing store and livestream operations, combining product preparation, content coordination, performance tracking, and data-driven sales optimization.",
     heroSlogan:
-      "Connecting data, technology, and marketing to enable smarter decisions.",
+      "Connecting operations, content, and data to build effective live-selling sessions.",
     viewProjects: "Explore Projects",
-    viewResume: "View Resume",
+    viewResume: "Contact Me",
 
-    metricProjects: "University Projects",
+    metricProjects: "Data & System Projects",
     metricAwards: "Awards & Recognitions",
     metricSeo: "SEO Articles",
-    metricActivities: "Student Activities",
+    metricActivities: "Activities & Events",
 
     aboutEyebrow: "About",
     aboutTitle: "About Me",
     aboutParagraphOne:
-      "I am Nguyen Thi Bich Ngoc, a final-year Management Information Systems student. I am exploring career paths in Business Intelligence, MarTech, and Data Analytics.",
+      "I am Nguyen Thi Bich Ngoc, a final-year Management Information Systems student pursuing E-commerce Operations, especially livestream operations.",
     aboutParagraphTwo:
-      "Most of my technical skills have been developed through university projects, scientific research, and student activities. I enjoy connecting data, technology, and marketing thinking to create practical academic products.",
-    highlightOne: "Turn data into insights",
-    highlightTwo: "Connect marketing and technology",
-    highlightThree: "Model business processes",
-    highlightFour: "Develop research thinking",
+      "My foundation in data, marketing, SEO, CRM, and enterprise systems helps me approach e-commerce with measurable processes. I am developing skills in live-session preparation, cross-team coordination, product management, and sales performance analysis.",
+    highlightOne: "Prepare and coordinate live sessions",
+    highlightTwo: "Manage products and campaigns",
+    highlightThree: "Track and analyze performance",
+    highlightFour: "Coordinate hosts, content, and operations",
+
+    capabilitiesEyebrow: "Career focus",
+    capabilitiesTitle: "E-commerce Capabilities in Development",
+    capabilitiesDescription: "I am translating my data, marketing, and systems foundation into practical sales operations capabilities.",
+    capabilityOneTitle: "Livestream Operations",
+    capabilityOneA: "Prepare product lists, offers, and timelines",
+    capabilityOneB: "Coordinate hosts, content, and support teams",
+    capabilityOneC: "Monitor engagement, orders, and live issues",
+    capabilityOneD: "Summarize performance and post-live learnings",
+    capabilityTwoTitle: "Store & Campaign Operations",
+    capabilityTwoA: "Manage product information, content, and categories",
+    capabilityTwoB: "Track pricing, vouchers, and promotions",
+    capabilityTwoC: "Support SEO content and customer journeys",
+    capabilityTwoD: "Work with operational checklists and processes",
+    capabilityThreeTitle: "Sales Analytics",
+    capabilityThreeA: "Track traffic, orders, and revenue",
+    capabilityThreeB: "Analyze customers, RFM, and SKU performance",
+    capabilityThreeC: "Build dashboards with Power BI and Excel",
+    capabilityThreeD: "Turn data into sales optimization proposals",
+    capabilitiesNote: "I am actively strengthening these capabilities for e-commerce internship and fresher opportunities.",
 
     journeyEyebrow: "Growth path",
     journeyTitle: "My Journey",
@@ -189,13 +224,14 @@ const translations = {
     journeyFourText:
       "Served as Team Leader and worked with the team to build an ERP simulation covering Marketing, CRM, enrollment, education management, and dashboards on Odoo.",
     futureLabel: "Future",
-    journeyFiveTitle: "Pursuing a Career in Business Intelligence & MarTech",
+    journeyFiveTitle: "Pursuing E-commerce & Livestream Operations",
     journeyFiveText:
       "Continue developing technical knowledge, tools, and business thinking to prepare for professional environments.",
 
     projectsEyebrow: "University projects",
     projectsTitle: "Featured Projects",
     projectDetails: "View Details",
+    projectComing: "Case study coming soon",
     projectOneTitle: "VUS Student Management System",
     projectOneDescription:
       "A university project modeling an Odoo-based student and enrollment system connecting Marketing, CRM, placement tests, enrollment, and dashboards.",
@@ -227,15 +263,11 @@ const translations = {
     activitiesTitle: "Student Activities",
     activitiesDescription:
       "Student Union, volunteer, event, and campus experiences.",
-    activityOneTitle: "School Student Union Recognition",
-    activityTwoTitle: "School Youth Union Recognition",
-    activityThreeTitle: "Student Activity Journey",
-    activityOneDescription:
-      "Recognized by the Executive Committee of the Student Union of Ho Chi Minh City University of Transport for contributing actively to student union work, student movement, and volunteer activities.",
-    activityTwoDescription:
-      "Recognized by the Executive Committee of the Ho Chi Minh City University of Transport Youth Union for outstanding achievements in youth union work, youth movement, and volunteer activities.",
-    activityThreeDescription:
-      "A record of memorable moments from participating in youth union, student union, volunteer programs, seminars, events, and student movements throughout the study journey at Ho Chi Minh City University of Transport.",
+    activityOneTitle: "Featured Activity 01",
+    activityTwoTitle: "Featured Activity 02",
+    activityThreeTitle: "Featured Activity 03",
+    activityPlaceholderText:
+      "Replace the image, activity title, role, and date here.",
 
     studyEyebrow: "Education",
     studyTitle: "Education & Academic Recognition",
@@ -244,17 +276,13 @@ const translations = {
     studyOneTitle: "Academic Encouragement Scholarship",
     studyTwoTitle: "Student of Five Merits",
     studyThreeTitle: "English Business Certificate Level 3",
-    studyOneDescription:
-      "Awarded the Encouragement Scholarship of Ho Chi Minh City University of Transport thanks to excellent academic results and a proactive learning and training spirit during the 2024–2025 academic year.",
-    studyTwoDescription:
-      "Recognized with the \"Student of Five Merits\" title at the Liên Chi Hội level for the 2024–2025 academic year, reflecting well-rounded development in ethics, academics, physical fitness, volunteerism, and integration.",
-    studyThreeDescription:
-      "Completed the English training program according to the 6-level foreign language proficiency framework used in Vietnam and achieved Level 3 Skills at Ho Chi Minh City University of Transport.",
+    studyPlaceholderText:
+      "Replace the image and academic description here.",
 
-    seoEyebrow: "Website Management & SEO",
+    seoEyebrow: "E-commerce Content & SEO",
     seoTitle: "30+ SEO Articles Published",
     seoDescription:
-      "Practical experience as a website content management collaborator: keyword research, SEO content production, On-page optimization, product category management, and performance tracking with Google Search Console.",
+      "Practical experience supporting website content and product categories: keyword research, SEO content production, On-page optimization, and performance tracking with Google Search Console.",
 
     skillsEyebrow: "Knowledge and tools",
     skillsTitle: "Skills in Development",
@@ -265,16 +293,16 @@ const translations = {
     contactEyebrow: "Let us connect",
     contactTitle: "Get in Touch",
     contactDescription:
-      "I am open to internship opportunities, academic projects, and roles aligned with Business Intelligence, MarTech, or Data Analytics.",
+      "I am open to internship and fresher opportunities in E-commerce Operations, Livestream Operations, and Sales Analytics.",
     emailLabel: "Email",
     phoneLabel: "Phone",
     facebookText: "Bich Ngoc",
-    cvLabel: "Resume",
-    cvText: "View Resume PDF",
+    cvLabel: "Opportunities",
+    cvText: "Send me an email",
     locationLabel: "Location",
     locationText: "Ho Chi Minh City, Vietnam",
 
-    footerText: "Connecting data, technology, and marketing."
+    footerText: "Connecting operations, content, and data."
   }
 };
 
