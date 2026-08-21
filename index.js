@@ -11,27 +11,27 @@ const translations = {
     navContact: "Liên hệ",
     navAchievement: "Thành tích",
 
-    heroGreeting: "Xin chào, mình là",
+    heroGreeting: "Xin chào, em là",
     heroRole: "Sinh viên Hệ thống Thông tin Quản lý • Định hướng E-commerce Operations",
     heroSpecialization: "E-commerce • Livestream Operations • Sales Analytics",
     heroDescription:
-      "Mình hướng đến công việc vận hành gian hàng và livestream: chuẩn bị sản phẩm, phối hợp nội dung, theo dõi hiệu suất và dùng dữ liệu để tối ưu bán hàng.",
+      "Em hướng đến công việc vận hành gian hàng và livestream: chuẩn bị sản phẩm, phối hợp nội dung, theo dõi hiệu suất và dùng dữ liệu để tối ưu bán hàng.",
     heroSlogan:
       "Kết nối vận hành, nội dung và dữ liệu để tạo nên những phiên bán hàng hiệu quả.",
     viewProjects: "Khám phá dự án",
-    viewResume: "Liên hệ với mình",
+    viewResume: "Liên hệ với em",
 
     metricProjects: "Dự án dữ liệu & hệ thống",
     metricAwards: "Giải thưởng & ghi nhận",
     metricSeo: "Bài viết SEO",
     metricActivities: "Hoạt động & sự kiện",
 
-    aboutEyebrow: "Về mình",
+    aboutEyebrow: "Giới thiệu",
     aboutTitle: "Giới thiệu bản thân",
     aboutParagraphOne:
-      "Mình là Nguyễn Thị Bích Ngọc, sinh viên năm cuối ngành Hệ thống Thông tin Quản lý. Mình định hướng phát triển trong lĩnh vực E-commerce Operations, đặc biệt là vận hành livestream.",
+      "Em là Nguyễn Thị Bích Ngọc, sinh viên năm cuối ngành Hệ thống Thông tin Quản lý. Em định hướng phát triển trong lĩnh vực E-commerce Operations, đặc biệt là vận hành livestream.",
     aboutParagraphTwo:
-      "Nền tảng về dữ liệu, marketing, SEO, CRM và hệ thống doanh nghiệp giúp mình tiếp cận vận hành TMĐT theo hướng có quy trình và đo lường. Mình mong muốn phát triển khả năng chuẩn bị phiên live, phối hợp đội nhóm, quản lý sản phẩm và phân tích hiệu quả bán hàng.",
+      "Nền tảng về dữ liệu, marketing, SEO, CRM và hệ thống doanh nghiệp giúp em tiếp cận vận hành TMĐT theo hướng có quy trình và đo lường. Em mong muốn phát triển khả năng chuẩn bị phiên live, phối hợp đội nhóm, quản lý sản phẩm và phân tích hiệu quả bán hàng.",
     highlightOne: "Chuẩn bị và điều phối phiên live",
     highlightTwo: "Quản lý sản phẩm và chiến dịch",
     highlightThree: "Theo dõi và phân tích hiệu suất",
@@ -39,7 +39,7 @@ const translations = {
 
     capabilitiesEyebrow: "Định hướng nghề nghiệp",
     capabilitiesTitle: "Năng lực E-commerce đang phát triển",
-    capabilitiesDescription: "Mình đang chuyển hóa nền tảng dữ liệu, marketing và quản trị hệ thống thành năng lực vận hành bán hàng thực tế.",
+    capabilitiesDescription: "Em đang chuyển hóa nền tảng dữ liệu, marketing và quản trị hệ thống thành năng lực vận hành bán hàng thực tế.",
     capabilityOneTitle: "Livestream Operations",
     capabilityOneA: "Chuẩn bị danh sách sản phẩm, ưu đãi và timeline",
     capabilityOneB: "Phối hợp host, nội dung và bộ phận hỗ trợ",
@@ -55,10 +55,10 @@ const translations = {
     capabilityThreeB: "Phân tích khách hàng, RFM và hiệu suất SKU",
     capabilityThreeC: "Xây dựng dashboard bằng Power BI và Excel",
     capabilityThreeD: "Chuyển dữ liệu thành đề xuất tối ưu bán hàng",
-    capabilitiesNote: "Đây là nhóm năng lực mình đang chủ động hoàn thiện để sẵn sàng cho vị trí thực tập hoặc fresher trong lĩnh vực TMĐT.",
+    capabilitiesNote: "Đây là nhóm năng lực em đang chủ động hoàn thiện để sẵn sàng cho vị trí thực tập hoặc fresher trong lĩnh vực TMĐT.",
 
     journeyEyebrow: "Quá trình phát triển",
-    journeyTitle: "Hành trình của mình",
+    journeyTitle: "Hành trình của em",
     journeyOneTitle: "Khởi đầu với ngành Hệ thống Thông tin Quản lý",
     journeyOneText: "Xây dựng nền tảng về kinh doanh, dữ liệu và hệ thống doanh nghiệp.",
     journeyTwoTitle: "Khám phá Nghiên cứu Khoa học & Phân tích Dữ liệu",
@@ -95,7 +95,7 @@ const translations = {
     researchEyebrow: "Nghiên cứu khoa học",
     researchTitle: "Một số hoạt động nghiên cứu tiêu biểu",
     researchDescription:
-      "Những trải nghiệm giúp mình rèn luyện tư duy nghiên cứu, làm việc nhóm và trình bày học thuật.",
+      "Những trải nghiệm giúp em rèn luyện tư duy nghiên cứu, làm việc nhóm và trình bày học thuật.",
     researchOneTitle: "Hội thảo Khoa học AI KING 2025",
     researchOneText:
       "Đề tài về tác động của trí tuệ nhân tạo trong quá trình chuyển đổi chiến lược Digital Marketing toàn cầu.",
@@ -110,21 +110,29 @@ const translations = {
     activitiesTitle: "Hoạt động sinh viên",
     activitiesDescription:
       "Các hoạt động Đoàn – Hội, tình nguyện, sự kiện và trải nghiệm tại trường.",
-    activityOneTitle: "Hoạt động tiêu biểu 01",
-    activityTwoTitle: "Hoạt động tiêu biểu 02",
-    activityThreeTitle: "Hoạt động tiêu biểu 03",
-    activityPlaceholderText:
-      "Thay ảnh, tên hoạt động, vai trò và thời gian tại đây.",
+    activityOneTitle: "Giấy khen Hội Sinh viên Trường",
+    activityTwoTitle: "Giấy khen của Đoàn Trường",
+    activityThreeTitle: "Dấu ấn Hoạt động Sinh viên",
+    activityOneDescription:
+      "Được Ban Chấp hành Hội Sinh viên Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều đóng góp tích cực trong công tác Hội, phong trào sinh viên và các hoạt động tình nguyện.",
+    activityTwoDescription:
+      "Được Ban Chấp hành Đoàn Trường Đại học Giao thông Vận tải TP.HCM khen thưởng vì có nhiều thành tích nổi bật trong công tác Đoàn, phong trào thanh niên và các hoạt động tình nguyện.",
+    activityThreeDescription:
+      "Những dấu ấn trong quá trình tham gia hoạt động Đoàn – Hội, chương trình tình nguyện, hội thảo, sự kiện và phong trào sinh viên tại Trường Đại học Giao thông Vận tải TP.HCM.",
 
     studyEyebrow: "Học tập",
     studyTitle: "Học tập & Ghi nhận học thuật",
     studyDescription:
       "Nơi cập nhật học bổng, danh hiệu Sinh viên 5 Tốt, kết quả học tập và các chứng nhận học thuật.",
-    studyOneTitle: "Học bổng khuyến khích học tập",
+    studyOneTitle: "Học bổng Khuyến khích học tập",
     studyTwoTitle: "Danh hiệu Sinh viên 5 Tốt",
-    studyThreeTitle: "Chứng nhận Nghiệp vụ Tiếng Anh Bậc 3",
-    studyPlaceholderText:
-      "Thay ảnh và mô tả thông tin học tập tại đây.",
+    studyThreeTitle: "Chứng nhận Năng lực Tiếng Anh Bậc 3",
+    studyOneDescription:
+      "Đạt Học bổng Khuyến khích học tập của Trường Đại học Giao thông Vận tải TP.HCM nhờ kết quả học tập loại Xuất sắc và tinh thần học tập, rèn luyện tích cực trong năm học 2024–2025.",
+    studyTwoDescription:
+      "Được công nhận danh hiệu Sinh viên 5 Tốt cấp Liên Chi hội năm học 2024–2025, ghi nhận sự phát triển toàn diện về đạo đức, học tập, thể lực, tình nguyện và hội nhập.",
+    studyThreeDescription:
+      "Đạt chứng nhận Năng lực Tiếng Anh Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam tại Trường Đại học Giao thông Vận tải TP.HCM.",
 
     seoEyebrow: "E-commerce Content & SEO",
     seoTitle: "30+ bài viết SEO đã triển khai",
@@ -138,14 +146,14 @@ const translations = {
     viewImage: "Xem ảnh",
 
     contactEyebrow: "Cùng kết nối",
-    contactTitle: "Liên hệ với mình",
+    contactTitle: "Liên hệ với em",
     contactDescription:
-      "Mình sẵn sàng trao đổi về cơ hội thực tập hoặc fresher trong lĩnh vực E-commerce Operations, Livestream Operations và Sales Analytics.",
+      "Em sẵn sàng trao đổi về cơ hội thực tập hoặc fresher trong lĩnh vực E-commerce Operations, Livestream Operations và Sales Analytics.",
     emailLabel: "Email",
     phoneLabel: "Số điện thoại",
     facebookText: "Bích Ngọc",
     cvLabel: "Cơ hội hợp tác",
-    cvText: "Gửi email cho mình",
+    cvText: "Gửi email cho em",
     locationLabel: "Khu vực",
     locationText: "Thành phố Hồ Chí Minh",
 
@@ -263,11 +271,15 @@ const translations = {
     activitiesTitle: "Student Activities",
     activitiesDescription:
       "Student Union, volunteer, event, and campus experiences.",
-    activityOneTitle: "Featured Activity 01",
-    activityTwoTitle: "Featured Activity 02",
-    activityThreeTitle: "Featured Activity 03",
-    activityPlaceholderText:
-      "Replace the image, activity title, role, and date here.",
+    activityOneTitle: "Certificate of School Student Union Recognition",
+    activityTwoTitle: "Certificate of School Youth Union Recognition",
+    activityThreeTitle: "Student Activities Highlights",
+    activityOneDescription:
+      "Recognized by the Executive Committee of the Student Union at the University of Transport Ho Chi Minh City for positive contributions to Student Union work, student movements, and volunteer activities.",
+    activityTwoDescription:
+      "Recognized by the Executive Committee of the Youth Union at the University of Transport Ho Chi Minh City for outstanding achievements in Youth Union work, youth movements, and volunteer activities.",
+    activityThreeDescription:
+      "Highlights from participating in Youth Union and Student Union activities, volunteer programs, seminars, events, and student movements at the University of Transport Ho Chi Minh City.",
 
     studyEyebrow: "Education",
     studyTitle: "Education & Academic Recognition",
@@ -275,9 +287,13 @@ const translations = {
       "A space for scholarships, Student of Five Merits, academic results, and academic certificates.",
     studyOneTitle: "Academic Encouragement Scholarship",
     studyTwoTitle: "Student of Five Merits",
-    studyThreeTitle: "English Business Certificate Level 3",
-    studyPlaceholderText:
-      "Replace the image and academic description here.",
+    studyThreeTitle: "Level 3 English Proficiency Certificate",
+    studyOneDescription:
+      "Received an Academic Encouragement Scholarship from the University of Transport Ho Chi Minh City for excellent academic performance and active participation during the 2024–2025 academic year.",
+    studyTwoDescription:
+      "Recognized as a Student of Five Merits at the Faculty Student Association level for achievements in ethics, academics, physical fitness, volunteering, and international integration.",
+    studyThreeDescription:
+      "Achieved Level 3 English proficiency under Vietnam's six-level foreign language competency framework at the University of Transport Ho Chi Minh City.",
 
     seoEyebrow: "E-commerce Content & SEO",
     seoTitle: "30+ SEO Articles Published",
